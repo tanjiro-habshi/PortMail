@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src="tag"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-G4TJCJ57X4');
+    </script>
+    <title>Port Mail</title>
+    <meta name="theme-color" content="#000000">
+    <meta property="og:description" content="PortMail is a temporary and completely anonymous email inbox that does not require any registration.">
+    <meta property="og:title" content="Port Mail">
+	  <meta content="https://port.mom/mail" property="og:url">
+	  <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/x-icon" href="favi.png">
+    <link rel="stylesheet" type="text/css" href="mail.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <script src="call.js"></script>
+  <body>
+    <div class="email-container">
+      <label for="mailbox-textbox">
+        <pre>
+                                                                     
+          ██████╗  ██████╗ ██████╗ ████████╗    ███╗   ███╗ █████╗ ██╗██╗     
+          ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝    ████╗ ████║██╔══██╗██║██║     
+          ██████╔╝██║   ██║██████╔╝   ██║       ██╔████╔██║███████║██║██║     
+          ██╔═══╝ ██║   ██║██╔══██╗   ██║       ██║╚██╔╝██║██╔══██║██║██║     
+          ██║     ╚██████╔╝██║  ██║   ██║       ██║ ╚═╝ ██║██║  ██║██║███████╗
+          ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+                                                                 
+        </pre>
+      </label>
+        <input type="text" id="mailbox-textbox" name="mailbox">
+        <div class="btn-container">
+          <button id="generate-button">Generate</button>
+          <button id="refresh-button">Refresh</button>  
+        </div>
+      </div>
+    <div id="no-messages-label" style="display: none;">No messages in your inbox. <br> <br>PSA: Meant to be used as a tempmail service. We are NOT responsible for locked accounts.</div>
+    
+    <div id="emails-container"></div>
+    <div id="email-content-container"></div>
+    <button id="back-button" style="display: none;">Back</button>
+  </body>
+</html>
+
